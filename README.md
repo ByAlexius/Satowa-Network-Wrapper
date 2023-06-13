@@ -6,7 +6,7 @@ This Project is a Java library that makes it easier to use the Satowa Network RE
 
 This Project is in early stages of Development and is **not** ready for production.
 
-If you habe a Satowa APIKey, you can create a File called ```satowa.toml``` in you resources folder.
+If you have a Satowa APIKey, you can create a File called ```satowa.toml``` in you resources folder.
 
 In that file you write the following text:
 
