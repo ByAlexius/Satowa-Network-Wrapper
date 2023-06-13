@@ -16,10 +16,28 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Contains the logic for the {@link net.byalexius.snapi.service.impl.ReportImpl} Implementation
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class ReportLogic {
 
+    /**
+     * The config File where the apikey is stored
+     */
     private final Toml config = TOMLHelper.readConfig("satowa.toml");
 
+    /**
+     * <p>This method gets all Reports from the <a href="https://api.satowa-network.eu/v3/reports/">API</a> and filters them</p>
+     * @since 0.0.1-SNAPSHOT
+     * @param id This is used to filter the responses with the ID of the Report
+     * @param reporter_Id This is used to filter the responses with the ID of the Person that Reported
+     * @param reported_Id This is used to filter the responses with the ID of the Person that was Reported
+     * @param platform This is used to filter the responses based on the Platform that the Reports are on
+     * @param status This is used to filter the responses based on the Current Status
+     * @param getAll When this is set to true all Reports are getting returned
+     * @return a List of {@link net.byalexius.snapi.internal.model.ReportModel}'s
+     */
     public List<ReportModel> getReports(long id, String reporter_Id, String reported_Id, Constants.Platform platform, Boolean status, boolean getAll) {
         List<ReportModel> result = new ArrayList<>();
 

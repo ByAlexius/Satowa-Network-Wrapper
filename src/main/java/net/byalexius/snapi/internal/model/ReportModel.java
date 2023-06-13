@@ -4,6 +4,10 @@ import lombok.Getter;
 import lombok.Setter;
 import net.byalexius.snapi.internal.common.Constants;
 
+/**
+ * This is the Model that Reports that get Requested are assigned
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class ReportModel {
 
     @Getter

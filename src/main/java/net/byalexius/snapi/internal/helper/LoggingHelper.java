@@ -2,6 +2,10 @@ package net.byalexius.snapi.internal.helper;
 
 import net.byalexius.snapi.internal.common.Constants;
 
+/**
+ * This is the LoggingHelper, it provides a format for System.out.println
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class LoggingHelper {
 
     public static void Log(Class clazz, String message, Constants.LogLevel level) {

@@ -1,5 +1,9 @@
 package net.byalexius.snapi.internal.common;
 
+/**
+ * These are the Constant Variables that get used all over the Project
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class Constants {
 
     public enum Platform {

@@ -8,6 +8,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * This is the TOMLHelper, it contains methods for the TOML config's
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class TOMLHelper {
 
     public static Toml readConfig(String configName) {

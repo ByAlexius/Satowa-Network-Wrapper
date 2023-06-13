@@ -5,6 +5,11 @@ import net.byalexius.snapi.internal.model.ReportModel;
 
 import java.util.List;
 
+/**
+ * This is the Interface for the <a href="https://api.satowa-network.eu/v3/reports/">Report API</a>
+ * <br>If you want to get data from the Reports database you need to get it from here
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public interface IReport {
 
     List<ReportModel> getReports();

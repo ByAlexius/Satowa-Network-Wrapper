@@ -7,6 +7,10 @@ import net.byalexius.snapi.service.logic.ReportLogic;
 
 import java.util.List;
 
+/**
+ * This is the Implementation for the {@link net.byalexius.snapi.service.interfaces.IReport} Interface
+ * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
+ */
 public class ReportImpl implements IReport {
     ReportLogic reportLogic = new ReportLogic();
 
