@@ -1,7 +1,7 @@
 package net.byalexius.snapi.internal.common;
 
 /**
- * These are the Constant Variables that get used all over the Project
+ * These are the constant variables used throughout the project
  * @author <a href="https://www.github.com/ByAlexius">Alexander Rziha</a>
  */
 public class Constants {
