@@ -24,10 +24,6 @@
             <name>Alexander Rziha</name>
             <email>alexander.rziha@byalexius.net</email>
             <url>github.com/ByAlexius</url>
-            <roles>
-                <role>Code Owner</role>
-                <role>Lead Developer</role>
-            </roles>
         </developer>
     </developers>
 
