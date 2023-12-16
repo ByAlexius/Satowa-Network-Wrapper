@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <Pattern>%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+            </layout>
+        </encoder>
+    </appender>
+
+    <appender name="COLOR_CONSOLE" class="ch.qos.logback.classic.android.ColorCapableConsoleAppender">
+        <encoder>
+            <pattern>%cyan(%d{dd-MM-yyyy HH:mm:ss}) %boldYellow([%thread]) %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="COLOR_CONSOLE" />
+    </root>
+
+</configuration>
